@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="edge" attr.name="width" attr.type="long" />
+  <key id="d4" for="edge" attr.name="color" attr.type="string" />
+  <key id="d3" for="edge" attr.name="title" attr.type="string" />
+  <key id="d2" for="node" attr.name="size" attr.type="long" />
+  <key id="d1" for="node" attr.name="title" attr.type="string" />
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="10.1.0.2">
+      <data key="d0">10.1.0.2</data>
+      <data key="d1">10.1.0.2</data>
+      <data key="d2">10</data>
+    </node>
+    <node id="10.1.0.1">
+      <data key="d0">10.1.0.1</data>
+      <data key="d1">10.1.0.1</data>
+      <data key="d2">10</data>
+    </node>
+    <node id="10.1.0.3">
+      <data key="d0">10.1.0.3</data>
+      <data key="d1">10.1.0.3</data>
+      <data key="d2">10</data>
+    </node>
+    <node id="10.1.0.5">
+      <data key="d0">10.1.0.5</data>
+      <data key="d1">10.1.0.5</data>
+      <data key="d2">10</data>
+    </node>
+    <node id="10.1.0.4">
+      <data key="d0">10.1.0.4</data>
+      <data key="d1">10.1.0.4</data>
+      <data key="d2">10</data>
+    </node>
+    <node id="10.2.0.2">
+      <data key="d0">10.2.0.2</data>
+      <data key="d1">10.2.0.2</data>
+      <data key="d2">10</data>
+    </node>
+    <node id="10.2.0.3">
+      <data key="d0">10.2.0.3</data>
+      <data key="d1">10.2.0.3</data>
+      <data key="d2">10</data>
+    </node>
+    <node id="10.2.0.5">
+      <data key="d0">10.2.0.5</data>
+      <data key="d1">10.2.0.5</data>
+      <data key="d2">10</data>
+    </node>
+    <node id="10.2.0.4">
+      <data key="d0">10.2.0.4</data>
+      <data key="d1">10.2.0.4</data>
+      <data key="d2">10</data>
+    </node>
+    <node id="10.2.0.1">
+      <data key="d2">10</data>
+    </node>
+    <edge source="10.1.0.2" target="10.1.0.1">
+      <data key="d3">Area: 0.0.0.1
+Rede: 172.16.1.1
+Color: #00ff00
+Cost: 10</data>
+      <data key="d4">#00ff00</data>
+      <data key="d5">1</data>
+    </edge>
+    <edge source="10.1.0.2" target="10.1.0.3">
+      <data key="d3">Area: 0.0.0.1
+Rede: 172.16.1.5
+Color: #00ff00
+Cost: 20</data>
+      <data key="d4">#00ff00</data>
+      <data key="d5">1</data>
+    </edge>
+    <edge source="10.1.0.5" target="10.1.0.4">
+      <data key="d3">Area: 0.0.0.1
+Rede: 172.16.1.9
+Color: #00ff00
+Cost: 5</data>
+      <data key="d4">#00ff00</data>
+      <data key="d5">1</data>
+    </edge>
+    <edge source="10.2.0.2" target="10.2.0.1">
+      <data key="d3">Area: 0.0.0.2
+Rede: 172.16.2.1
+Color: #ff00ff
+Cost: 15</data>
+      <data key="d4">#ff00ff</data>
+      <data key="d5">1</data>
+    </edge>
+    <edge source="10.2.0.2" target="10.2.0.3">
+      <data key="d3">Area: 0.0.0.2
+Rede: 172.16.2.5
+Color: #ff00ff
+Cost: 10</data>
+      <data key="d4">#ff00ff</data>
+      <data key="d5">1</data>
+    </edge>
+    <edge source="10.2.0.5" target="10.2.0.4">
+      <data key="d3">Area: 0.0.0.2
+Rede: 172.16.2.9
+Color: #ff00ff
+Cost: 25</data>
+      <data key="d4">#ff00ff</data>
+      <data key="d5">1</data>
+    </edge>
+  </graph>
+</graphml>
