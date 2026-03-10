@@ -230,6 +230,6 @@ See the [LICENSE](LICENSE) file for details.
 
 ## 👤 Author
 
-Filipe Pena  
-Network Automation  
-Brazil  
+| | |
+|---|---|
+| <img src="https://github.com/Filipe20.png" width="80"/> | **Filipe Pena**<br>[GitHub](https://github.com/Filipe20) |
