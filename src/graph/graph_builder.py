@@ -5,6 +5,7 @@ import networkx as nx
 from pyvis import network as net
 import pandas as pd
 from collections import defaultdict
+import matplotlib.pyplot as plt
 
 class OSPFGraphBuilder:
     def __init__(self) -> None:

@@ -80,6 +80,15 @@ input/huawei_example.txt
 
 ---
 
+### Lab Topology
+
+![Lab Topology](./img/lab_ospf.png)
+
+### Lab Result
+
+[View the generated interactive topology graph](./output/graph.html)
+
+
 ## 📂 Project Structure
 
 ```
