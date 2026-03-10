@@ -1,0 +1,265 @@
+OSPF Process 1 with Router ID 10.1.1.1
+Area: 0.0.0.0
+----------------------------------------------------------------------------
+
+  Type      : Router
+  Ls id     : 10.1.1.1
+  Adv rtr   : 10.1.1.1
+  Ls age    : 1455
+  Len       : 60
+  Options   :  ASBR  ABR  E
+  seq#      : 8000000b
+  chksum    : 0xb55d
+  Link count: 3
+     Link ID: 10.0.0.2
+     Data   : 10.0.0.1
+     Link Type: TransNet
+     Metric : 1
+     Link ID: 10.0.0.6
+     Data   : 10.0.0.5
+     Link Type: TransNet
+     Metric : 1
+     Link ID: 10.0.0.38
+     Data   : 10.0.0.37
+     Link Type: TransNet
+     Metric : 100
+
+  Type      : Router
+  Ls id     : 10.1.1.2
+  Adv rtr   : 10.1.1.2
+  Ls age    : 1701
+  Len       : 108
+  Options   :  ASBR  E
+  seq#      : 80000009
+  chksum    : 0xc07c
+  Link count: 7
+     Link ID: 10.1.1.1
+     Data   : 10.0.0.2
+     Link Type: P-2-P
+     Metric : 1
+     Link ID: 10.1.1.1
+     Data   : 10.0.0.38
+     Link Type: P-2-P
+     Metric : 100
+     Link ID: 10.1.1.3
+     Data   : 10.0.0.9
+     Link Type: P-2-P
+     Metric : 1
+     Link ID: 10.0.0.0
+     Data   : 255.255.255.252
+     Link Type: StubNet
+     Metric : 1
+     Link ID: 10.0.0.8
+     Data   : 255.255.255.252
+     Link Type: StubNet
+     Metric : 1
+     Link ID: 10.0.0.36
+     Data   : 255.255.255.252
+     Link Type: StubNet
+     Metric : 100
+     Link ID: 10.1.1.2
+     Data   : 255.255.255.255
+     Link Type: StubNet
+     Metric : 1
+
+  Type      : Router
+  Ls id     : 10.1.1.3
+  Adv rtr   : 10.1.1.3
+  Ls age    : 82
+  Len       : 84
+  Options   :  ASBR  E
+  seq#      : 80000009
+  chksum    : 0xe69a
+  Link count: 5
+     Link ID: 10.1.1.1
+     Data   : 10.0.0.6
+     Link Type: P-2-P
+     Metric : 1
+     Link ID: 10.1.1.2
+     Data   : 10.0.0.10
+     Link Type: P-2-P
+     Metric : 1
+     Link ID: 10.0.0.4
+     Data   : 255.255.255.252
+     Link Type: StubNet
+     Metric : 1
+     Link ID: 10.0.0.8
+     Data   : 255.255.255.252
+     Link Type: StubNet
+     Metric : 1
+     Link ID: 10.1.1.3
+     Data   : 255.255.255.255
+     Link Type: StubNet
+     Metric : 1
+Area: 0.0.0.1
+----------------------------------------------------------------------------
+
+  Type      : Router
+  Ls id     : 10.1.1.1
+  Adv rtr   : 10.1.1.1
+  Ls age    : 182
+  Len       : 48
+  Options   :  ASBR  ABR  E
+  seq#      : 80000008
+  chksum    : 0xfa9
+  Link count: 2
+     Link ID: 10.0.0.14
+     Data   : 10.0.0.13
+     Link Type: TransNet
+     Metric : 1
+     Link ID: 10.0.0.18
+     Data   : 10.0.0.17
+     Link Type: TransNet
+     Metric : 1
+
+  Type      : Router
+  Ls id     : 10.1.1.4
+  Adv rtr   : 10.1.1.4
+  Ls age    : 1827
+  Len       : 84
+  Options   :  ASBR  E
+  seq#      : 80000008
+  chksum    : 0x3a1a
+  Link count: 5
+     Link ID: 10.1.1.1
+     Data   : 10.0.0.14
+     Link Type: P-2-P
+     Metric : 1
+     Link ID: 10.1.1.5
+     Data   : 10.0.0.22
+     Link Type: P-2-P
+     Metric : 1
+     Link ID: 10.0.0.12
+     Data   : 255.255.255.252
+     Link Type: StubNet
+     Metric : 1
+     Link ID: 10.0.0.20
+     Data   : 255.255.255.252
+     Link Type: StubNet
+     Metric : 1
+     Link ID: 10.1.1.4
+     Data   : 255.255.255.255
+     Link Type: StubNet
+     Metric : 1
+
+  Type      : Router
+  Ls id     : 10.1.1.5
+  Adv rtr   : 10.1.1.5
+  Ls age    : 164
+  Len       : 108
+  Options   :  ASBR  E
+  seq#      : 8000000d
+  chksum    : 0x14bd
+  Link count: 7
+     Link ID: 10.1.1.1
+     Data   : 10.0.0.18
+     Link Type: P-2-P
+     Metric : 1
+     Link ID: 10.1.1.4
+     Data   : 10.0.0.21
+     Link Type: P-2-P
+     Metric : 1
+     Link ID: 10.1.1.6
+     Data   : 10.0.0.25
+     Link Type: P-2-P
+     Metric : 1
+     Link ID: 10.0.0.16
+     Data   : 255.255.255.252
+     Link Type: StubNet
+     Metric : 1
+     Link ID: 10.0.0.20
+     Data   : 255.255.255.252
+     Link Type: StubNet
+     Metric : 1
+     Link ID: 10.0.0.24
+     Data   : 255.255.255.252
+     Link Type: StubNet
+     Metric : 1
+     Link ID: 10.1.1.5
+     Data   : 255.255.255.255
+     Link Type: StubNet
+     Metric : 1
+
+  Type      : Router
+  Ls id     : 10.1.1.6
+  Adv rtr   : 10.1.1.6
+  Ls age    : 15
+  Len       : 132
+  Options   :  ASBR  E
+  seq#      : 8000000c
+  chksum    : 0x2d0e
+  Link count: 9
+     Link ID: 10.1.1.5
+     Data   : 10.0.0.26
+     Link Type: P-2-P
+     Metric : 1
+     Link ID: 10.1.1.7
+     Data   : 10.0.0.29
+     Link Type: P-2-P
+     Metric : 1
+     Link ID: 10.1.1.7
+     Data   : 10.0.0.33
+     Link Type: P-2-P
+     Metric : 100
+     Link ID: 10.1.1.7
+     Data   : 10.0.0.41
+     Link Type: P-2-P
+     Metric : 1
+     Link ID: 10.0.0.24
+     Data   : 255.255.255.252
+     Link Type: StubNet
+     Metric : 1
+     Link ID: 10.0.0.28
+     Data   : 255.255.255.252
+     Link Type: StubNet
+     Metric : 1
+     Link ID: 10.0.0.32
+     Data   : 255.255.255.252
+     Link Type: StubNet
+     Metric : 100
+     Link ID: 10.0.0.40
+     Data   : 255.255.255.252
+     Link Type: StubNet
+     Metric : 1
+     Link ID: 10.1.1.6
+     Data   : 255.255.255.255
+     Link Type: StubNet
+     Metric : 1
+
+  Type      : Router
+  Ls id     : 10.1.1.7
+  Adv rtr   : 10.1.1.7
+  Ls age    : 21
+  Len       : 108
+  Options   :  ASBR  E
+  seq#      : 80000008
+  chksum    : 0x149c
+  Link count: 7
+     Link ID: 10.1.1.6
+     Data   : 10.0.0.30
+     Link Type: P-2-P
+     Metric : 1
+     Link ID: 10.1.1.6
+     Data   : 10.0.0.34
+     Link Type: P-2-P
+     Metric : 100
+     Link ID: 10.1.1.6
+     Data   : 10.0.0.42
+     Link Type: P-2-P
+     Metric : 1
+     Link ID: 10.0.0.28
+     Data   : 255.255.255.252
+     Link Type: StubNet
+     Metric : 1
+     Link ID: 10.0.0.32
+     Data   : 255.255.255.252
+     Link Type: StubNet
+     Metric : 100
+     Link ID: 10.0.0.40
+     Data   : 255.255.255.252
+     Link Type: StubNet
+     Metric : 1
+     Link ID: 10.1.1.7
+     Data   : 255.255.255.255
+     Link Type: StubNet
+     Metric : 1

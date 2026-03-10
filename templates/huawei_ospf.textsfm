@@ -4,7 +4,7 @@ Value LINK_TYPE (\S+)
 Value METRIC (\d+)
 
 Start
-  ^\s*\*\s+Link ID:\s+${LINK_ID} -> Continue
+  ^\s*Link ID:\s+${LINK_ID} -> Continue
   ^\s*Data\s+:\s+${DATA} -> Continue
   ^\s*Link Type:\s+${LINK_TYPE} -> Continue
   ^\s*Metric\s+:\s+${METRIC} -> Record

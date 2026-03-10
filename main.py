@@ -23,13 +23,12 @@ def plot(df:pd.DataFrame, output_path: str, filename: str):
         if df.empty:
             logger.warning("DataFrame is empty. No graph will be plotted.")
             raise ValueError("DataFrame is empty.")
-        df = df[df['LINK_TYPE'] == 'P-2-P']
         logger.info(f"Filtered DataFrame shape (P2P): {df.shape}")
         areas = df['AREA'].unique()
         random_colors = distinctipy.get_colors(len(areas))
         colors = {areas[i]:distinctipy.get_hex(random_colors[i]) for i in range(0, len(areas))}
         df['COLOR'] = df['AREA'].map(colors)
-        df['LABEL'] = df.apply(lambda x: f"Area: {x['AREA']}\nRede: {x['DATA']}\nColor: {x['COLOR']}\nCost: {x['METRIC']}", axis=1)
+        df['LABEL'] = df.apply(lambda x: f"Area: {x['AREA']}\nRede: {x['NETWORK']}\nColor: {x['COLOR']}\nCost: {x['METRIC']}", axis=1)
         PG = OSPFGraphBuilder()
         PG.run(df)
         PG.plot(f'{output_path}/{filename}')
